@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
                 binding.dateInminutes.text = setDateInminutes(selectedDate,sdf).toString()
                 binding.dateInHours.text = setDateInHours(selectedDate,sdf).toString()
                 binding.dateInDays.text = setDateInDays(selectedDate,sdf).toString()
-                binding.dateInYear.text = setDateInYear(selectedDate,sdf,year).toString()
+                binding.dateInYear.text = setDateInYear(year).toString()
             },
             year,
             month,
@@ -77,12 +77,9 @@ class MainActivity : AppCompatActivity() {
         return AgeInDays/10
     }
 
-    private fun setDateInYear(selectedDate:String,sdf:SimpleDateFormat,year:Int): Int {
-        val theDate = sdf.parse(selectedDate)
-        val selectedDateInminutes = year
-
+    private fun setDateInYear(year:Int): Int {
         val currentDateInminutes = Calendar.getInstance().get(Calendar.YEAR)
-        val AgeInYear = currentDateInminutes - selectedDateInminutes
+        val AgeInYear = currentDateInminutes - year
         return AgeInYear
     }
 

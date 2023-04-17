@@ -66,7 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:text="02/02/2002"
+        android:text="@string/empty"
 
         android:textColor="@color/red"
         android:textSize="18sp"
@@ -88,8 +88,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:text="2000"
-
+        android:text="@string/empty"
         android:textColor="@color/red"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -99,7 +98,71 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="In minutes till today"
+        android:text="In Minutes till today"
+        android:textColor="@color/hit_red"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/dateInHours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/empty"
+        android:textColor="@color/red"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="In Hours till today"
+        android:textColor="@color/hit_red"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/dateInDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/empty"
+        android:textColor="@color/red"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="In Days till today"
+        android:textColor="@color/hit_red"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/dateInYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/empty"
+        android:textColor="@color/red"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="In Year till today"
         android:textColor="@color/hit_red"
         android:textSize="20sp"
         android:textStyle="bold"
